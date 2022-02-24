@@ -4,7 +4,7 @@ import subprocess
 import isort  # noqa: F401
 import snoop
 from loguru import logger
-from kombu import Connection
+
 from __init__ import app
 from tasks import default_browser
 from kombu import Connection, Producer, Exchange
